@@ -1,0 +1,11 @@
+application_port: "8090"
+
+# mysql配置文件
+mysql:
+  host: "127.0.0.1"   # mysql地址
+  port: "3306"   # 运行端口
+  username: "root" # 用户名
+  password: "Or2452020438" # 密码
+  database: "BlockFruitTrace" # 数据库
+
+contract_address: "0x524F58edf0A5523A5963008343Ec660155Bf25A0"

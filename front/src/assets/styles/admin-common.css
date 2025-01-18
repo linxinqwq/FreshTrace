@@ -1,0 +1,67 @@
+:root {
+  --primary-color: #f8b811;    /* 主黄色 */
+  --secondary-color: #FF6E2F;  /* 橙色 */
+  --hover-color: rgba(248, 184, 17, 0.1);
+}
+
+/* 表格样式 */
+.ant-table-wrapper {
+  margin: 20px 0;
+}
+
+.ant-table-thead > tr > th {
+  background: var(--hover-color) !important;
+  color: #333 !important;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background: var(--hover-color) !important;
+}
+
+/* 主按钮样式 */
+.ant-btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.ant-btn-primary:hover {
+  opacity: 0.9;
+}
+
+/* 危险按钮样式 */
+.ant-btn-dangerous {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+}
+
+/* 链接按钮样式 */
+.ant-btn-link {
+  color: var(--secondary-color) !important;
+}
+
+/* 分页器样式 */
+.ant-pagination-item-active {
+  border-color: var(--primary-color) !important;
+}
+
+.ant-pagination-item-active a {
+  color: var(--primary-color) !important;
+}
+
+/* 状态标签样式 */
+.status-text {
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.status-pending {
+  background-color: var(--hover-color);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.status-rejected {
+  background-color: rgba(255, 110, 47, 0.1);
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+} 
